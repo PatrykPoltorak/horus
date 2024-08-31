@@ -12,12 +12,10 @@ public class FolderImp implements Folder{
     public String getName() {
         return name;
     }
-
     @Override
     public String getSize() {
         return size;
     }
-
     @Override
     public String toString() {
         return "Folder{" +
